@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>LSUIElement</key>
+	<true/>
+	<key>CFBundleName</key>
+	<string>NAKL 2.0</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.zepvn.NAKL2</string>
+	<key>CFBundleVersion</key>
+	<string>2.0.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>2.0</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>15.0</string>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.utilities</string>
+	<key>NSAppleEventsUsageDescription</key>
+	<string>NAKL 2.0 needs accessibility access to provide Vietnamese keyboard input.</string>
+</dict>
+</plist>

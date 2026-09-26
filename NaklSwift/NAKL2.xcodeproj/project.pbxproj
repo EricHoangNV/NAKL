@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B07E916BEE8B44EEA2F7F488 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631CB7AC622D4A99A146C90D /* AppState.swift */; };
+		9126817D664745598EC31469 /* CharacterTables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B474899F3E442A8E0E3222 /* CharacterTables.swift */; };
+		9D5F403A06BD43969ED15140 /* InputMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = D686B68033D84BD48BA62279 /* InputMethod.swift */; };
+		A0B49BF663D8435EB70E9EBE /* KeyCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D984107C944C34B2579A1C /* KeyCode.swift */; };
+		4DB7374835594209B3B9FF8D /* ModifierMaps.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC28B0D07D44C62A9D7FD64 /* ModifierMaps.swift */; };
+		DDFC4E77162A4973B2ABE610 /* SharedRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F01316835F24052B6E80B5C /* SharedRules.swift */; };
+		D4C81985409E4390A89B6DFA /* TelexRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745D8FB4F7924DC4A6C12453 /* TelexRules.swift */; };
+		88F6A47D673B4C70B4DAC4A3 /* VNIRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614D816824E747299B281CB4 /* VNIRules.swift */; };
+		688B7CFB34364E2A978A3312 /* VietnameseEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1C534308134DB689E6F311 /* VietnameseEngine.swift */; };
+		9D057C1F86DC4216BC723FB6 /* ClipboardInserter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF736C4C6AA4C5997A5F555 /* ClipboardInserter.swift */; };
+		B6AC8A1D6D5F4EF0A49E7E05 /* EventTapManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C876D6612ECC4C9DA02EF32A /* EventTapManager.swift */; };
+		2027D583C2604D5390CB7430 /* SyntheticEventEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737B5038AE7A4F8596C9DF3F /* SyntheticEventEmitter.swift */; };
+		590723F2CA5C4321B5614643 /* GlobalHotKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE95E353862405CBC6BE010 /* GlobalHotKey.swift */; };
+		539AD26777FC4EAB9B5DFC69 /* NAKLApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DF9B71BE4B455DBFE8FEA8 /* NAKLApp.swift */; };
+		D358DE6E324F42BD9196BCD7 /* AccessibilityPermission.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE030F52D53B4DEA960364FD /* AccessibilityPermission.swift */; };
+		03075FB658D04F12806EA3D5 /* ExcludedAppsSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013765C785DE415B87D199DD /* ExcludedAppsSettingsView.swift */; };
+		6B6CD7CA2FF64F678A4A261F /* GeneralSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863440BDC0CF496DA8733E3E /* GeneralSettingsView.swift */; };
+		D5C4B5F5CDD449F682393618 /* HotKeySettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25DD43A6841F4D3A818F6737 /* HotKeySettingsView.swift */; };
+		2BAED3D63D604C09855FC31F /* MenuBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A339648BC1B45DC9F28F3AF /* MenuBarView.swift */; };
+		6E81DCC8FA3240B297B81229 /* PreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E0399CE4B84DA39D995826 /* PreferencesView.swift */; };
+		8D3B84A05AE14D0A85D123ED /* ShortcutsSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CC97048F584A6D9786759D /* ShortcutsSettingsView.swift */; };
+		F5F12E63EE6A495F9DE5A89A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EF2A98523C040D8B5DF0515 /* Assets.xcassets */; };
+		A6EDFE2BE7E942BBBD699B35 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 6641FCB09CB7415E982646EF /* Localizable.xcstrings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		631CB7AC622D4A99A146C90D /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppState.swift"; sourceTree = "<group>"; };
+		63B474899F3E442A8E0E3222 /* CharacterTables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CharacterTables.swift"; sourceTree = "<group>"; };
+		D686B68033D84BD48BA62279 /* InputMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "InputMethod.swift"; sourceTree = "<group>"; };
+		E5D984107C944C34B2579A1C /* KeyCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KeyCode.swift"; sourceTree = "<group>"; };
+		DEC28B0D07D44C62A9D7FD64 /* ModifierMaps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ModifierMaps.swift"; sourceTree = "<group>"; };
+		8F01316835F24052B6E80B5C /* SharedRules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SharedRules.swift"; sourceTree = "<group>"; };
+		745D8FB4F7924DC4A6C12453 /* TelexRules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TelexRules.swift"; sourceTree = "<group>"; };
+		614D816824E747299B281CB4 /* VNIRules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VNIRules.swift"; sourceTree = "<group>"; };
+		BF1C534308134DB689E6F311 /* VietnameseEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VietnameseEngine.swift"; sourceTree = "<group>"; };
+		BBF736C4C6AA4C5997A5F555 /* ClipboardInserter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ClipboardInserter.swift"; sourceTree = "<group>"; };
+		C876D6612ECC4C9DA02EF32A /* EventTapManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EventTapManager.swift"; sourceTree = "<group>"; };
+		737B5038AE7A4F8596C9DF3F /* SyntheticEventEmitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SyntheticEventEmitter.swift"; sourceTree = "<group>"; };
+		FAE95E353862405CBC6BE010 /* GlobalHotKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GlobalHotKey.swift"; sourceTree = "<group>"; };
+		81DF9B71BE4B455DBFE8FEA8 /* NAKLApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NAKLApp.swift"; sourceTree = "<group>"; };
+		FE030F52D53B4DEA960364FD /* AccessibilityPermission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AccessibilityPermission.swift"; sourceTree = "<group>"; };
+		013765C785DE415B87D199DD /* ExcludedAppsSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ExcludedAppsSettingsView.swift"; sourceTree = "<group>"; };
+		863440BDC0CF496DA8733E3E /* GeneralSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GeneralSettingsView.swift"; sourceTree = "<group>"; };
+		25DD43A6841F4D3A818F6737 /* HotKeySettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HotKeySettingsView.swift"; sourceTree = "<group>"; };
+		5A339648BC1B45DC9F28F3AF /* MenuBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MenuBarView.swift"; sourceTree = "<group>"; };
+		24E0399CE4B84DA39D995826 /* PreferencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PreferencesView.swift"; sourceTree = "<group>"; };
+		63CC97048F584A6D9786759D /* ShortcutsSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ShortcutsSettingsView.swift"; sourceTree = "<group>"; };
+		4EF2A98523C040D8B5DF0515 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Assets.xcassets"; sourceTree = "<group>"; };
+		6641FCB09CB7415E982646EF /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = "Localizable.xcstrings"; sourceTree = "<group>"; };
+		70BF6AE4FB754175864C7E90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info.plist"; sourceTree = "<group>"; };
+		B10543A27A3248D693114686 /* NAKL.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "NAKL.entitlements"; sourceTree = "<group>"; };
+		4534BB406EE64FBBBEC6FB70 /* NAKL 2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NAKL 2.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		98A4EF9198A54FBEAE65BF2D /* NAKL */ = {
+			isa = PBXGroup;
+			children = (
+				F24F039382234498B0DDBA1A /* Engine */,
+				94A2553FA3DA4D5FBD8DEC22 /* EventTap */,
+				D21CB4927924415098BBE561 /* Permissions */,
+				2A83EB892A4143CF9F59BEB7 /* HotKey */,
+				EF4BD2A079DD4171989C1D5B /* UI */,
+				4F54FDD5ED6E4849BE1F4577 /* Resources */,
+				631CB7AC622D4A99A146C90D /* AppState.swift */,
+				81DF9B71BE4B455DBFE8FEA8 /* NAKLApp.swift */,
+				70BF6AE4FB754175864C7E90 /* Info.plist */,
+				B10543A27A3248D693114686 /* NAKL.entitlements */,
+			);
+			path = NAKL;
+			sourceTree = "<group>";
+		};
+		2866748D38224BBB9A284273 = {
+			isa = PBXGroup;
+			children = (
+				98A4EF9198A54FBEAE65BF2D /* NAKL */,
+				2AC78351FE4A454398E48038 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2AC78351FE4A454398E48038 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4534BB406EE64FBBBEC6FB70 /* NAKL 2.0.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F24F039382234498B0DDBA1A /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				63B474899F3E442A8E0E3222 /* CharacterTables.swift */,
+				D686B68033D84BD48BA62279 /* InputMethod.swift */,
+				E5D984107C944C34B2579A1C /* KeyCode.swift */,
+				DEC28B0D07D44C62A9D7FD64 /* ModifierMaps.swift */,
+				8F01316835F24052B6E80B5C /* SharedRules.swift */,
+				745D8FB4F7924DC4A6C12453 /* TelexRules.swift */,
+				614D816824E747299B281CB4 /* VNIRules.swift */,
+				BF1C534308134DB689E6F311 /* VietnameseEngine.swift */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		94A2553FA3DA4D5FBD8DEC22 /* EventTap */ = {
+			isa = PBXGroup;
+			children = (
+				BBF736C4C6AA4C5997A5F555 /* ClipboardInserter.swift */,
+				C876D6612ECC4C9DA02EF32A /* EventTapManager.swift */,
+				737B5038AE7A4F8596C9DF3F /* SyntheticEventEmitter.swift */,
+			);
+			path = EventTap;
+			sourceTree = "<group>";
+		};
+		D21CB4927924415098BBE561 /* Permissions */ = {
+			isa = PBXGroup;
+			children = (
+				FE030F52D53B4DEA960364FD /* AccessibilityPermission.swift */,
+			);
+			path = Permissions;
+			sourceTree = "<group>";
+		};
+		2A83EB892A4143CF9F59BEB7 /* HotKey */ = {
+			isa = PBXGroup;
+			children = (
+				FAE95E353862405CBC6BE010 /* GlobalHotKey.swift */,
+			);
+			path = HotKey;
+			sourceTree = "<group>";
+		};
+		EF4BD2A079DD4171989C1D5B /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				013765C785DE415B87D199DD /* ExcludedAppsSettingsView.swift */,
+				863440BDC0CF496DA8733E3E /* GeneralSettingsView.swift */,
+				25DD43A6841F4D3A818F6737 /* HotKeySettingsView.swift */,
+				5A339648BC1B45DC9F28F3AF /* MenuBarView.swift */,
+				24E0399CE4B84DA39D995826 /* PreferencesView.swift */,
+				63CC97048F584A6D9786759D /* ShortcutsSettingsView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		4F54FDD5ED6E4849BE1F4577 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4EF2A98523C040D8B5DF0515 /* Assets.xcassets */,
+				6641FCB09CB7415E982646EF /* Localizable.xcstrings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0FFBC8CC0304AC0A3711196 /* NAKL 2.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92594B7F97CF408B93AAABAE /* Build configuration list for PBXNativeTarget "NAKL 2.0" */;
+			buildPhases = (
+				81BD5739DBED40609358DBF8 /* Sources */,
+				0523010BA70743B4AF1F15FD /* Resources */,
+				ABECC53B7274478EBDC9C205 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NAKL 2.0";
+			productName = "NAKL 2.0";
+			productReference = 4534BB406EE64FBBBEC6FB70 /* NAKL 2.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21BCA9B0A690491EAA01C719 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = D944DEA2EF8043979254DB94 /* Build configuration list for PBXProject "NAKL2" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				vi,
+				Base,
+			);
+			mainGroup = 2866748D38224BBB9A284273;
+			productRefGroup = 2AC78351FE4A454398E48038 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0FFBC8CC0304AC0A3711196 /* NAKL 2.0 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81BD5739DBED40609358DBF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B07E916BEE8B44EEA2F7F488 /* AppState.swift in Sources */,
+				9126817D664745598EC31469 /* CharacterTables.swift in Sources */,
+				9D5F403A06BD43969ED15140 /* InputMethod.swift in Sources */,
+				A0B49BF663D8435EB70E9EBE /* KeyCode.swift in Sources */,
+				4DB7374835594209B3B9FF8D /* ModifierMaps.swift in Sources */,
+				DDFC4E77162A4973B2ABE610 /* SharedRules.swift in Sources */,
+				D4C81985409E4390A89B6DFA /* TelexRules.swift in Sources */,
+				88F6A47D673B4C70B4DAC4A3 /* VNIRules.swift in Sources */,
+				688B7CFB34364E2A978A3312 /* VietnameseEngine.swift in Sources */,
+				9D057C1F86DC4216BC723FB6 /* ClipboardInserter.swift in Sources */,
+				B6AC8A1D6D5F4EF0A49E7E05 /* EventTapManager.swift in Sources */,
+				2027D583C2604D5390CB7430 /* SyntheticEventEmitter.swift in Sources */,
+				590723F2CA5C4321B5614643 /* GlobalHotKey.swift in Sources */,
+				539AD26777FC4EAB9B5DFC69 /* NAKLApp.swift in Sources */,
+				D358DE6E324F42BD9196BCD7 /* AccessibilityPermission.swift in Sources */,
+				03075FB658D04F12806EA3D5 /* ExcludedAppsSettingsView.swift in Sources */,
+				6B6CD7CA2FF64F678A4A261F /* GeneralSettingsView.swift in Sources */,
+				D5C4B5F5CDD449F682393618 /* HotKeySettingsView.swift in Sources */,
+				2BAED3D63D604C09855FC31F /* MenuBarView.swift in Sources */,
+				6E81DCC8FA3240B297B81229 /* PreferencesView.swift in Sources */,
+				8D3B84A05AE14D0A85D123ED /* ShortcutsSettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0523010BA70743B4AF1F15FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5F12E63EE6A495F9DE5A89A /* Assets.xcassets in Resources */,
+				A6EDFE2BE7E942BBBD699B35 /* Localizable.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABECC53B7274478EBDC9C205 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DD48EF09EDD943179E91EC3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		7EFCC3BC6A25457BBF043E4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		A1A9BAC1FB3748AEB15E89D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NAKL/NAKL.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BTH3W4V3QV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = NAKL/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zepvn.NAKL2;
+				PRODUCT_NAME = "NAKL 2.0";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		82D883B611D54504A9889B22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NAKL/NAKL.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BTH3W4V3QV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = NAKL/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zepvn.NAKL2;
+				PRODUCT_NAME = "NAKL 2.0";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D944DEA2EF8043979254DB94 /* Build configuration list for PBXProject "NAKL2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD48EF09EDD943179E91EC3D /* Debug */,
+				7EFCC3BC6A25457BBF043E4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92594B7F97CF408B93AAABAE /* Build configuration list for PBXNativeTarget "NAKL 2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1A9BAC1FB3748AEB15E89D4 /* Debug */,
+				82D883B611D54504A9889B22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = 21BCA9B0A690491EAA01C719 /* Project object */;
+}
